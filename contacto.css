@@ -1,0 +1,95 @@
+body {
+   font-family: 'Bruno Ace SC', cursive;
+}
+
+main {
+    
+   width: 80%;
+   margin: 0 auto;
+
+}
+
+form {
+ 
+   margin: 40px 0;
+
+}
+
+form label, form legend {
+
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+
+}
+
+.input-padron {
+    
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 25px;
+   width: 50%;
+
+}
+
+.checkbox {
+   
+   margin: 30px 0;
+   
+}
+
+.boton {
+
+   width: 30%;
+   margin: 30px 0;
+   padding: 10px 0;
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   background-color: black;
+   transition: 1s;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.boton:hover {
+   
+   background-color: brown;
+   transform: scale(1.2);
+
+}
+
+.boton:active {
+
+   background-color: rgb(37, 207, 15);
+   transform: scale(0.7);
+}
+
+table {
+
+   margin: 40px;
+
+}
+
+thead {
+
+   background-color: black;
+   color: white;
+   font-weight: bold;
+
+}
+
+tbody {
+
+   background-color: gray;
+   color: white;
+
+}
+
+td, th {
+
+     padding: 10px 15px;
+     border: 1px solid black;  
+
+}
